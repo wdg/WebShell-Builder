@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEA35B5C200127480061991C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA35B5B200127480061991C /* AppDelegate.swift */; };
+		DEA35B5E200127480061991C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA35B5D200127480061991C /* ViewController.swift */; };
+		DEA35B60200127480061991C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA35B5F200127480061991C /* Assets.xcassets */; };
+		DEA35B63200127480061991C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA35B61200127480061991C /* Main.storyboard */; };
+		DEA35B6F200127480061991C /* Webshell_BuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA35B6E200127480061991C /* Webshell_BuilderTests.swift */; };
+		DEA35B7A200127480061991C /* Webshell_BuilderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA35B79200127480061991C /* Webshell_BuilderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEA35B6B200127480061991C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEA35B50200127480061991C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEA35B57200127480061991C;
+			remoteInfo = "Webshell Builder";
+		};
+		DEA35B76200127480061991C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEA35B50200127480061991C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEA35B57200127480061991C;
+			remoteInfo = "Webshell Builder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEA35B58200127480061991C /* Webshell Builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Webshell Builder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA35B5B200127480061991C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEA35B5D200127480061991C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEA35B5F200127480061991C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEA35B62200127480061991C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEA35B64200127480061991C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA35B65200127480061991C /* Webshell_Builder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Webshell_Builder.entitlements; sourceTree = "<group>"; };
+		DEA35B6A200127480061991C /* Webshell BuilderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Webshell BuilderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA35B6E200127480061991C /* Webshell_BuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webshell_BuilderTests.swift; sourceTree = "<group>"; };
+		DEA35B70200127480061991C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA35B75200127480061991C /* Webshell BuilderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Webshell BuilderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA35B79200127480061991C /* Webshell_BuilderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webshell_BuilderUITests.swift; sourceTree = "<group>"; };
+		DEA35B7B200127480061991C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEA35B55200127480061991C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA35B67200127480061991C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA35B72200127480061991C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEA35B4F200127480061991C = {
+			isa = PBXGroup;
+			children = (
+				DEA35B5A200127480061991C /* Webshell Builder */,
+				DEA35B6D200127480061991C /* Webshell BuilderTests */,
+				DEA35B78200127480061991C /* Webshell BuilderUITests */,
+				DEA35B59200127480061991C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEA35B59200127480061991C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEA35B58200127480061991C /* Webshell Builder.app */,
+				DEA35B6A200127480061991C /* Webshell BuilderTests.xctest */,
+				DEA35B75200127480061991C /* Webshell BuilderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEA35B5A200127480061991C /* Webshell Builder */ = {
+			isa = PBXGroup;
+			children = (
+				DEA35B5B200127480061991C /* AppDelegate.swift */,
+				DEA35B5D200127480061991C /* ViewController.swift */,
+				DEA35B5F200127480061991C /* Assets.xcassets */,
+				DEA35B61200127480061991C /* Main.storyboard */,
+				DEA35B64200127480061991C /* Info.plist */,
+				DEA35B65200127480061991C /* Webshell_Builder.entitlements */,
+			);
+			path = "Webshell Builder";
+			sourceTree = "<group>";
+		};
+		DEA35B6D200127480061991C /* Webshell BuilderTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEA35B6E200127480061991C /* Webshell_BuilderTests.swift */,
+				DEA35B70200127480061991C /* Info.plist */,
+			);
+			path = "Webshell BuilderTests";
+			sourceTree = "<group>";
+		};
+		DEA35B78200127480061991C /* Webshell BuilderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEA35B79200127480061991C /* Webshell_BuilderUITests.swift */,
+				DEA35B7B200127480061991C /* Info.plist */,
+			);
+			path = "Webshell BuilderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEA35B57200127480061991C /* Webshell Builder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA35B7E200127480061991C /* Build configuration list for PBXNativeTarget "Webshell Builder" */;
+			buildPhases = (
+				DEA35B54200127480061991C /* Sources */,
+				DEA35B55200127480061991C /* Frameworks */,
+				DEA35B56200127480061991C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Webshell Builder";
+			productName = "Webshell Builder";
+			productReference = DEA35B58200127480061991C /* Webshell Builder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEA35B69200127480061991C /* Webshell BuilderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA35B81200127480061991C /* Build configuration list for PBXNativeTarget "Webshell BuilderTests" */;
+			buildPhases = (
+				DEA35B66200127480061991C /* Sources */,
+				DEA35B67200127480061991C /* Frameworks */,
+				DEA35B68200127480061991C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEA35B6C200127480061991C /* PBXTargetDependency */,
+			);
+			name = "Webshell BuilderTests";
+			productName = "Webshell BuilderTests";
+			productReference = DEA35B6A200127480061991C /* Webshell BuilderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEA35B74200127480061991C /* Webshell BuilderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA35B84200127480061991C /* Build configuration list for PBXNativeTarget "Webshell BuilderUITests" */;
+			buildPhases = (
+				DEA35B71200127480061991C /* Sources */,
+				DEA35B72200127480061991C /* Frameworks */,
+				DEA35B73200127480061991C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEA35B77200127480061991C /* PBXTargetDependency */,
+			);
+			name = "Webshell BuilderUITests";
+			productName = "Webshell BuilderUITests";
+			productReference = DEA35B75200127480061991C /* Webshell BuilderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEA35B50200127480061991C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Wesley de Groot";
+				TargetAttributes = {
+					DEA35B57200127480061991C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DEA35B69200127480061991C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DEA35B57200127480061991C;
+					};
+					DEA35B74200127480061991C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DEA35B57200127480061991C;
+					};
+				};
+			};
+			buildConfigurationList = DEA35B53200127480061991C /* Build configuration list for PBXProject "Webshell Builder" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEA35B4F200127480061991C;
+			productRefGroup = DEA35B59200127480061991C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEA35B57200127480061991C /* Webshell Builder */,
+				DEA35B69200127480061991C /* Webshell BuilderTests */,
+				DEA35B74200127480061991C /* Webshell BuilderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEA35B56200127480061991C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA35B60200127480061991C /* Assets.xcassets in Resources */,
+				DEA35B63200127480061991C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA35B68200127480061991C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA35B73200127480061991C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEA35B54200127480061991C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA35B5E200127480061991C /* ViewController.swift in Sources */,
+				DEA35B5C200127480061991C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA35B66200127480061991C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA35B6F200127480061991C /* Webshell_BuilderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA35B71200127480061991C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA35B7A200127480061991C /* Webshell_BuilderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEA35B6C200127480061991C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEA35B57200127480061991C /* Webshell Builder */;
+			targetProxy = DEA35B6B200127480061991C /* PBXContainerItemProxy */;
+		};
+		DEA35B77200127480061991C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEA35B57200127480061991C /* Webshell Builder */;
+			targetProxy = DEA35B76200127480061991C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEA35B61200127480061991C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEA35B62200127480061991C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEA35B7C200127480061991C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEA35B7D200127480061991C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		DEA35B7F200127480061991C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Webshell Builder/Webshell_Builder.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Webshell Builder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.Web-Shell.Webshell-Builder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		DEA35B80200127480061991C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Webshell Builder/Webshell_Builder.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Webshell Builder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.Web-Shell.Webshell-Builder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		DEA35B82200127480061991C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Webshell BuilderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.Web-Shell.Webshell-BuilderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Webshell Builder.app/Contents/MacOS/Webshell Builder";
+			};
+			name = Debug;
+		};
+		DEA35B83200127480061991C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Webshell BuilderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.Web-Shell.Webshell-BuilderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Webshell Builder.app/Contents/MacOS/Webshell Builder";
+			};
+			name = Release;
+		};
+		DEA35B85200127480061991C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Webshell BuilderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.Web-Shell.Webshell-BuilderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Webshell Builder";
+			};
+			name = Debug;
+		};
+		DEA35B86200127480061991C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Webshell BuilderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.Web-Shell.Webshell-BuilderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Webshell Builder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEA35B53200127480061991C /* Build configuration list for PBXProject "Webshell Builder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA35B7C200127480061991C /* Debug */,
+				DEA35B7D200127480061991C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA35B7E200127480061991C /* Build configuration list for PBXNativeTarget "Webshell Builder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA35B7F200127480061991C /* Debug */,
+				DEA35B80200127480061991C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA35B81200127480061991C /* Build configuration list for PBXNativeTarget "Webshell BuilderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA35B82200127480061991C /* Debug */,
+				DEA35B83200127480061991C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA35B84200127480061991C /* Build configuration list for PBXNativeTarget "Webshell BuilderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA35B85200127480061991C /* Debug */,
+				DEA35B86200127480061991C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEA35B50200127480061991C /* Project object */;
+}
